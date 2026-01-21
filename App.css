@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+  list-style: none;
+}
+body{
+  background-color: lightsalmon;
+  padding: 20px;
+  margin: 0;
+}
+body button{
+  
+  border: none;
+  outline: none;
+}
+.container{
+  border: solid 2px;
+  max-width: fit-content;
+  margin-left: 25pc ;
+  padding: 20px;
+  border-radius: 10px;
+}
+input{
+  width: 65%;
+}
+.dt{
+  width: 40%;
+  padding: 2px;
+}
+h1{
+  text-align: center;
+  color: black;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+}
+.nav button{
+  min-width: 40px;
+  border-radius: 0;
+  padding: 2px;
+  margin: 2px;
+}
+.nav button:hover{
+  background-color: grey;
+  border: 0;
+}
+li{
+  font-size: 30px;
+  display: flex;
+  padding: 2px;
+}
+button{
+  padding:  2px;
+  border-radius: 10px;
+  margin: 2px;
+}
+.edit button{
+  width: fit-content;
+  height: fit-content;
+  font-size: 20px;
+  border-radius: 0;
+}
